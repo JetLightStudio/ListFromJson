@@ -51,7 +51,13 @@ class HomePageState extends State<HomePage> {
         itemCount: data == null ? 0 : data.length,
         itemBuilder: (BuildContext context, int index) {
           return new Card(
-            child: new Text(data[index]["title"]),
+            child : new Column(
+              children: <Widget>[
+                 new Padding(padding: new EdgeInsets.all(5.0)),
+                 new Text(data[index]["title"],textAlign: TextAlign.center,),
+                 new Padding(padding: new EdgeInsets.all(5.0))
+              ],
+            )
           );
         },
       ),
