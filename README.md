@@ -1,6 +1,12 @@
 # list_json
 
-A new Flutter project.
+Get data from RestAPI and display on ListView using flutter.<br>
+data source : https://jsonplaceholder.typicode.com/posts
+
+# Screenshot
+
+![json data flutter cross platform mobile material](https://user-images.githubusercontent.com/24621701/40570747-ddbbc058-6085-11e8-9c12-2ce35edfec8b.png)
+
 
 ## Getting Started
 
